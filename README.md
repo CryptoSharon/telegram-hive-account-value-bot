@@ -5,7 +5,7 @@ A Telegram bot that calculates the basic value of an account (doesn't take into 
 
 **Requirement**: Nodejs
 
-**Optional**: Yarn, PM2
+**Optional**: Yarn, PM2, Typescript
 
 ### Installing Nodejs
 
@@ -13,7 +13,7 @@ A Telegram bot that calculates the basic value of an account (doesn't take into 
 
 ### Installing yarn and pm2 with NPM
 
-`npm i -g yarn pm2`
+`npm i -g yarn pm2 typescript`
 
 ### Install dependencies:
 
@@ -25,8 +25,18 @@ or
 
 ### Add the token
 
+If you're using Typescript:
+
 ```bash
 cd src
+vim secrets.json
+tsc
+```
+
+Otherwise:
+
+```bash
+cd dist
 vim secrets.json
 ```
 
