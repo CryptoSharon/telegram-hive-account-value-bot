@@ -13,8 +13,10 @@ or
 
 ### Add the token
 
-`cd src`
-`vim secrets.json`
+```bash
+cd src
+vim secrets.json
+```
 
 change "YOUR_TOKEN" for your bot token gotten from [@BotFather](https://t.me/Botfather)
 
@@ -24,8 +26,10 @@ change "YOUR_TOKEN" for your bot token gotten from [@BotFather](https://t.me/Bot
 
 ### Daemonize the bot with pm2
 
-`pm2 start src --name YourBotsName`
-`pm2 startup`
+```bash
+pm2 start src --name YourBotsName
+pm2 startup
+```
 
 ## Live Bot
 
