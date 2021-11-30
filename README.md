@@ -25,6 +25,7 @@ change "YOUR_TOKEN" for your bot token gotten from [@BotFather](https://t.me/Bot
 ### Daemonize the bot with pm2
 
 `pm2 start src --name YourBotsName`
+`pm2 startup`
 
 ## Live Bot
 
