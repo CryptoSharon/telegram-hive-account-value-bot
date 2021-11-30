@@ -3,6 +3,17 @@ A Telegram bot that calculates the basic value of an account (doesn't take into 
 
 ## Getting Started
 
+Requirement: Nodejs
+Optional: Yarn, PM2
+
+Installing Nodejs
+
+- I followed instructions [here](https://github.com/tj/n)
+
+Installing yarn and pm2 with NPM
+
+`npm i -g yarn pm2`
+
 ### Install dependencies:
 
 `yarn`
