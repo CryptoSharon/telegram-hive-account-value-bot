@@ -30,7 +30,7 @@ cd src
 vim secrets.json
 ```
 
-change "YOUR_TOKEN" for your bot token gotten from [@BotFather](https://t.me/Botfather)
+change "[YOUR TOKEN](https://github.com/CryptoSharon/telegram-hive-account-value-bot/blob/master/src/secrets.json)" for your bot token gotten from [@BotFather](https://t.me/Botfather)
 
 ### Run the bot
 
