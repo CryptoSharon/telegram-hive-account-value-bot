@@ -18,6 +18,14 @@ or
 
 change "YOUR_TOKEN" for your bot token gotten from [@BotFather](https://t.me/Botfather)
 
+### Run the bot
+
+`node src`
+
+### Daemonize the bot with pm2
+
+`pm2 start src --name YourBotsName`
+
 ## Live Bot
 
 [@HiveToolkitBot](https://t.me/HiveToolkitBot)
