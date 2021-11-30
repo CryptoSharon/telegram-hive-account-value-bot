@@ -44,12 +44,12 @@ change "[YOUR TOKEN](https://github.com/CryptoSharon/telegram-hive-account-value
 
 ### Run the bot
 
-`node src`
+`node dist`
 
 ### Daemonize the bot with pm2
 
 ```bash
-pm2 start src --name YourBotsName
+pm2 start dist --name YourBotsName
 pm2 startup
 ```
 
